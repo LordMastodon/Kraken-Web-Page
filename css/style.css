@@ -1,0 +1,34 @@
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav, .navbar, .dropdown-menu {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  color: #90c3d4;
+  background-color: #c8f57a;
+}
+
+.dropdown-menu .divider {
+  background-color: #7c9e41;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #7c9e41;
+}
+
+.dropdown-menu > .disabled > a,
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+  color: #5b752d;
+}
+
+.nav > li.disabled > a
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
+  color: #5b752d;
+}
+
+* {
+  border-radius: 0 !important;
+}
