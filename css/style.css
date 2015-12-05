@@ -12,18 +12,16 @@ html {
   margin-right: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  border-color: #FFFFFF;
+  border: 0px;
 }
 
-.dropdown-toggle:hover,
-.dropdown-toggle:focus {
-  background-color: #B6E06C;
+.dropdown-menu,
+.dropdown-menu:hover,
+.dropdown-menu:focus {
+  background-color: #BAE66E;
 }
 
-.dropdown-menu .divider {
-  background-color: #7C9E41;
-}
-
+.dropdown-menu .divider,
 .dropdown-menu > li > a:hover {
   background-color: #7C9E41;
 }
