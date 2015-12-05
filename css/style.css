@@ -1,9 +1,5 @@
-html {
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-.nav,
-.navbar,
+.navbar-default,
+.navbar-nav >li > a,
 .dropdown-menu {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
@@ -43,4 +39,5 @@ html {
 
 * {
   border-radius: 0 !important;
+  font-family: 'Josefin Sans', sans-serif !important;
 }
