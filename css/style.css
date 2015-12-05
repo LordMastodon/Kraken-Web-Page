@@ -1,32 +1,45 @@
-h1 {
+html {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.nav, .navbar, .dropdown-menu {
+.nav,
+.navbar,
+.dropdown-menu {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
-  color: #90c3d4;
-  background-color: #c8f57a;
+  background-color: #C8F57A;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-color: #FFFFFF;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+  background-color: #B6E06C;
 }
 
 .dropdown-menu .divider {
-  background-color: #7c9e41;
+  background-color: #7C9E41;
 }
 
 .dropdown-menu > li > a:hover {
-  background-color: #7c9e41;
+  background-color: #7C9E41;
 }
 
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
-  color: #5b752d;
+  color: #5B752d;
 }
 
-.nav > li.disabled > a
-.nav > li.disabled > a:hover,
-.nav > li.disabled > a:focus {
-  color: #5b752d;
+.disabled,
+.disabled:hover,
+.disabled:focus,
+.disabled li > a {
+  color: #FFC3D5;
+  background-color: #7A9150;
 }
 
 * {
