@@ -1,4 +1,4 @@
-.myDropdown {
+.myDropdown:focus {
   background-color: #aed966;
 }
 
