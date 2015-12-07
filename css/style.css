@@ -1,5 +1,5 @@
-.dropdown > .dropdown-toggle a {
-  text-transform: uppercase;
+.dropdown-toggle a {
+  background-color: #aed966;
 }
 
 .dropdown-menu {
@@ -11,7 +11,7 @@
 .dropdown:hover,
 .dropdown:focus,
 .dropdown-toggle:hover {
-  background-color: #a3cc53
+  background-color: #a3cc53;
 }
 
 .navbar {
