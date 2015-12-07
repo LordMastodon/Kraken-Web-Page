@@ -1,6 +1,6 @@
-.open > myDropdown, .open > myDropdown:hover, .open > myDropdown:focus {
-  background-color: #aed966;
-}
+.navbar-default .navbar-nav > .open > myDropdown, .navbar-default .navbar-nav > .open > myDropdown:hover, .navbar-default .navbar-nav > .open > myDropdown:focus {
+   background-color: #aed966;
+ }
 
 .dropdown-menu {
   text-transform: uppercase;
