@@ -1,4 +1,4 @@
-.navbar-default .navbar-nav > .open > myDropdown, .navbar-default .navbar-nav > .open > myDropdown:hover, .navbar-default .navbar-nav > .open > myDropdown:focus {
+a.dropdown-toggle.myDropdown {
    background-color: #aed966;
  }
 
