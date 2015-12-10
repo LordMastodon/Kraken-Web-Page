@@ -1,6 +1,6 @@
-.dropdown > .dropdown-toggle a {
-  text-transform: uppercase;
-}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+   background-color: #aed966;
+ }
 
 .dropdown-menu {
   text-transform: uppercase;
@@ -11,7 +11,7 @@
 .dropdown:hover,
 .dropdown:focus,
 .dropdown-toggle:hover {
-  background-color: #a3cc53
+  background-color: #a3cc53;
 }
 
 .navbar {
@@ -51,3 +51,8 @@
   border-radius: 0 !important;
   font-family: 'Josefin Sans', sans-serif !important;
 }
+
+.main-content {
+   margin-top: 75px;
+}
+
